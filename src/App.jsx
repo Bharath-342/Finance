@@ -1,7 +1,7 @@
 import { useState } from "react";  
 import { useLocalStorage } from "./hooks";
 import { INITIAL_TRANSACTIONS, DEFAULT_BUDGETS } from "./data";
-import Sidebar from "./components/sidebar";
+import Sidebar from "./components/Sidebar";
 import SummaryCards from "./components/SummaryCards";
 import { BarChart, DonutChart, TopCategories } from "./components/Charts";
 import Transactions from "./components/Transactions";
