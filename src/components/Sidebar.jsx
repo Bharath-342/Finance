@@ -7,7 +7,7 @@ const NAV = [
   { id: "insights", label: "Insights", icon: "◈" },
 ];
 
-export default function Sidebar({ tab, setTab, role, setRole, dark, setDark }) {
+export default function sidebar({ tab, setTab, role, setRole, dark, setDark }) {
   return (
     <div style={{
       width: 220, minHeight: "100vh", background: "var(--bg-secondary)",
