@@ -108,7 +108,7 @@ The goal was to build a dashboard that feels like a real product, not an assignm
 - Mock data spans three months to ensure all charts and insights show meaningful output on first load
 - Default budgets are pre-populated so the Budget tab demonstrates its functionality immediately
 - Simple React state with localStorage is used instead of a state management library — justified by the scale of the application and explicitly permitted by the assignment
-
+- Adjusted according to devices screens
 ---
 
 ## Optional Features Implemented
