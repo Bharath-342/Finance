@@ -12,6 +12,7 @@ export const CATEGORIES = [
   "Subscriptions",
   "Travel",
   "Education",
+  "Sports",
 ];
 
 export const CATEGORY_COLORS = {
@@ -28,6 +29,7 @@ export const CATEGORY_COLORS = {
   Subscriptions: "#9c6fef",
   Travel: "#26c6da",
   Education: "#66bb6a",
+  Sports: "#ab47bc",
 };
 
 export const INITIAL_TRANSACTIONS = [
@@ -78,4 +80,5 @@ export const DEFAULT_BUDGETS = {
   Travel: 10000,
   Education: 5000,
   Rent: 15000,
+  Sports: 2000,
 };
