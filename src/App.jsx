@@ -1,4 +1,4 @@
-import { useState } from "react";  
+import { useState } from "react";
 import { useLocalStorage } from "./hooks";
 import { INITIAL_TRANSACTIONS, DEFAULT_BUDGETS } from "./data";
 import Sidebar from "./components/Sidebar";

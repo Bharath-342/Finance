@@ -46,6 +46,8 @@ export default function Sidebar({ tab, setTab, role, setRole, dark, setDark }) {
         ))}
       </div>
 
+      
+
       {/* Role + Dark */}
       <div style={{ padding: "1rem 1.25rem", borderTop: "1px solid var(--border)", display: "flex", flexDirection: "column", gap: 12 }}>
         <div>
@@ -69,4 +71,9 @@ export default function Sidebar({ tab, setTab, role, setRole, dark, setDark }) {
       </div>
     </div>
   );
+// At the top of Sidebar component add:
+const [open, setOpen] = useState(false);
+const isMobile = window.innerWidth < 768;
+
 }
+
